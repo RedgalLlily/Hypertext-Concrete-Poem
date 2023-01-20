@@ -26,25 +26,27 @@ p{
 .title{
     position: relative;
     width: 350px;
-    text-align: left;
+    text-align: r;
     margin: 0 auto;
 }
 .title a{
     position: absolute;
+    opacity: 0.3;
 }
-.title a.forking{
+.title a.origin{
     left: 66%;
     top: -20px;
-    rotate: -18deg;
+    rotate: -22deg;
 }
-.title a.paths{
-    left: 78%;
-    top: 30px;
+.title a.author{
+    left: 10%;
+    top: -20px;
     rotate: 22deg;
 }
 
 a.dead-link:hover{
-    opacity: 0;
+    opacity: 0.3;
+    font-size: 30px;
 }
 
 span#ghost{
